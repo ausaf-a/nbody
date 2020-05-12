@@ -1,0 +1,3 @@
+/home/ausaf/Documents/cpp_tutorials/game/build/CMakeFiles/edit_cache.dir
+/home/ausaf/Documents/cpp_tutorials/game/build/CMakeFiles/rebuild_cache.dir
+/home/ausaf/Documents/cpp_tutorials/game/build/CMakeFiles/nbody.dir
