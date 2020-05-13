@@ -2,9 +2,8 @@
 #include "game.hpp"
 #include "body.hpp"
 
-Game::Game(int n)
-{
-}
+Game::Game()
+{}
 
 Game::~Game()
 {
@@ -93,30 +92,26 @@ void Game::render()
     // SDL_RenderClear(renderer);
 
     SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
+    int c = 0; 
     for (int i = 0; i < bodies.size(); i++)
     {
-        if (i == 0)
+        if (c == 0)
         {
             SDL_SetRenderDrawColor(renderer, 3, 140, 252, 255);
+            c++; 
         }
-        else if (i == 1)
+        else if (c == 1)
         {
             SDL_SetRenderDrawColor(renderer, 144, 3, 252, 255);
+            c++;
         }
-        else if (i == 2)
+        else if (c == 2)
         {
             SDL_SetRenderDrawColor(renderer, 252, 86, 3, 255);
+            c = 0; 
         }
 
         bodies[i].draw(renderer);
-    }
-
-    for (int i = 0; i < bodies.size(); i++)
-    {
-        for (int j = i + 1; j < bodies.size(); j++)
-        {
-            //SDL_RenderDrawLineF(renderer, bodies[i].pos[0], bodies[i].pos[1], bodies[j].pos[0], bodies[j].pos[1]);
-        }
     }
 
     SDL_RenderPresent(renderer);

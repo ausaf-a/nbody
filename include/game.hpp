@@ -12,7 +12,7 @@ class Game
 {
 
 public:
-    Game(int n);
+    Game();
     ~Game();
 
     void init(const char *title, int x, int y, int w, int h, bool fullscreen);

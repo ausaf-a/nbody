@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++14 -g  -rdynamic CMakeFiles/nbody.dir/main.cpp.o CMakeFiles/nbody.dir/src/game.cpp.o  -o nbody  -lSDL2 
+/usr/bin/c++   -std=c++14 -O3 -DNDEBUG  -rdynamic CMakeFiles/nbody.dir/main.cpp.o CMakeFiles/nbody.dir/src/game.cpp.o  -o nbody  -lSDL2 
