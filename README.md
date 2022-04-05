@@ -1,5 +1,5 @@
 # N-Body Simulation
-An [N-Body Simulation](https://en.wikipedia.org/wiki/N-body_simulation) approximates the solution to an instance of the [N-Body Problem](https://en.wikipedia.org/wiki/N-body_problem). In this program, you can add bodies by clicking on the screen, and they'll 
+An [N-Body Simulation](https://en.wikipedia.org/wiki/N-body_simulation) approximates the solution to an instance of the [N-Body Problem](https://en.wikipedia.org/wiki/N-body_problem). In this program, you can add bodies by clicking on the screen, and their positions will be updated using the simulation engine.  
 
 ![Demo](./nbody.gif)
 
@@ -17,13 +17,14 @@ I know, it kind of sucks to work with. But it's fast, and it's used in a lot of 
 ## Next Steps
 I don't have the time to keep building on this idea, but I think it would be really cool if it had some more advanced features. Right now it's a very simple C++ project without many bells and whistles, but you can change that! Here's some ideas for features that you could work on: 
 
-- Improve accuracy (Right now we use the stupidly simple [Euler's Method](https://x-engineer.org/euler-integration/#:~:text=The%20Euler%20method%20is%20a,proportional%20to%20the%20step%20size.), but maybe upgrading to something like () )
+
 - Ability to pause/play simulation using button or keypress (pretty simple)
 - Improve visualization, since it's kind of bad right now  (more simple)
 - User configurability (right now masses are randomly generated) (more complex)
+- - Improve accuracy (Right now the engine is built on the stupidly simple [Euler's Method](https://x-engineer.org/euler-integration/#:~:text=The%20Euler%20method%20is%20a,proportional%20to%20the%20step%20size.), but maybe upgrading to something like [Runge-Kutta Methods](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods) ) would yield faster results.
 - Implement [Barnes-Hut Algorithm](http://arborjs.org/docs/barnes-hut) to reduce runtime complexity from `O(n**2)` to `O(nlogn)`
 
-In order to improve the visualization and add more user interaction, it might be needed to upgrade to a better GUI library that comes with a windowing system. Right now the project uses [SDL](https://www.libsdl.org/) which might prove to be a limitation for some of the more advanced features. Would need to perform a migration at some point. 
+In order to improve the visualization and add more user interaction, it might be needed to upgrade to a better GUI library that comes with a windowing system. Right now the project uses [SDL](https://www.libsdl.org/) which might prove to be a limitation for some of the more advanced features. We will need to perform a migration at some point in the future. 
 
 ## Contributors
 If you've helped with this project, drop your github username here!
