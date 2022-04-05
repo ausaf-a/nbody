@@ -9,10 +9,10 @@ If you're trying to learn programming but you're in that weird intermediate stag
 If you're interested in working on this, but not sure what to do, feel free to reach out to me. My email is 
 
 ## Motivation
-The principle of emergent behavior has always fascinated me. How a single rule can result in quite complicated behavior over time. One example that we feel every day and have a good intuition for is gravity. This single, simple equation: `F = G*(mass1*mass2) / (radius**2)` explains not only why apples fall downwards, but also a great deal of astrophysics; the movement of our Sun, Moon, planets, spaceships, galaxies, superclusters of galaxies, etc. 
+The principle of emergent behavior has always fascinated me. How a simple rule can result in quite complicated system behavior over time. One example that we feel every day and have a good intuition for is gravity. This single, simple equation: `F = G*(mass1*mass2) / (radius**2)` explains not only why apples fall downwards, but also a great deal of astrophysics; the movement of our Sun, Moon, planets, spaceships, galaxies, superclusters of galaxies, etc. 
 
 ## Why C++?
-I know, it kind of sucks to work with. But it's fast, and it's used in a lot of places, so I wanted to gain some experience in writing object-oriented C++. 
+I know, it kind of really sucks to work with. But it's fast, and it's used in a lot of places, so I wanted to gain some experience in writing object-oriented C++. 
 
 ## Next Steps
 I don't have the time to keep building on this idea, but I think it would be really cool if it had some more advanced features. Right now it's a very simple C++ project without many bells and whistles, but you can change that! Here's some ideas for features that you could work on: 
