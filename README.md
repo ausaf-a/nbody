@@ -4,7 +4,9 @@ An [N-Body Simulation](https://en.wikipedia.org/wiki/N-body_simulation) approxim
 ![Demo](./nbody.gif)
 
 ## Why you should contribute 😀
-If you're trying to learn programming but you're in that weird intermediate stage where the tutorials are too easy, but you don't want to grind leetcode like the other nerds, this would be the perfect opportunity for you to learn some C++ in the context of a practical project while gaining some open source contribution experience.   
+If you're trying to learn programming but you're in that weird intermediate stage where the tutorials are too easy, but you don't want to grind leetcode like the other nerds, this would be the perfect opportunity for you to learn some C++ in the context of a practical project while gaining some open source contribution experience. 
+
+If you're interested in working on this, but not sure what to do, feel free to reach out to me. My email is 
 
 ## Motivation
 The principle of emergent behavior has always fascinated me. How a single rule can result in quite complicated behavior over time. One example that we feel every day and have a good intuition for is gravity. This single, simple equation: `F = G*(mass1*mass2) / (radius**2)` explains not only why apples fall downwards, but also a great deal of astrophysics; the movement of our Sun, Moon, planets, spaceships, galaxies, superclusters of galaxies, etc. 
@@ -21,7 +23,7 @@ I don't have the time to keep building on this idea, but I think it would be rea
 - User configurability (right now masses are randomly generated) (more complex)
 - Implement [Barnes-Hut Algorithm](http://arborjs.org/docs/barnes-hut) to reduce runtime complexity from `O(n**2)` to `O(nlogn)`
 
-In order to improve the visualization and add more user interaction, it might be needed to upgrade to a better GUI library that comes with a windowing system. Right now the project uses (SDL)[https://www.libsdl.org/] which might prove to be a limitation for some of the more advanced features. Would need to perform a migration at some point. 
+In order to improve the visualization and add more user interaction, it might be needed to upgrade to a better GUI library that comes with a windowing system. Right now the project uses [SDL](https://www.libsdl.org/) which might prove to be a limitation for some of the more advanced features. Would need to perform a migration at some point. 
 
 ## Contributors
 If you've helped with this project, drop your github username here!
