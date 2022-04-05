@@ -6,7 +6,7 @@ An [N-Body Simulation](https://en.wikipedia.org/wiki/N-body_simulation) approxim
 ## Why you should contribute 😀
 If you're trying to learn programming but you're in that weird intermediate stage where the tutorials are too easy, but you don't want to grind leetcode like the other nerds, this would be the perfect opportunity for you to learn some C++ in the context of a practical project while gaining some open source contribution experience. 
 
-If you're interested in working on this, but not sure what to do, feel free to reach out to me. My email is 
+If you're interested in working on this, but not sure what to do, feel free to drop a comment in the issues section and I'll explain it to you. 
 
 ## Motivation
 The principle of emergent behavior has always fascinated me. How a simple rule can result in quite complicated system behavior over time. One example that we feel every day and have a good intuition for is gravity. This single, simple equation: `F = G*(mass1*mass2) / (radius**2)` explains not only why apples fall downwards, but also a great deal of astrophysics; the movement of our Sun, Moon, planets, spaceships, galaxies, superclusters of galaxies, etc. 
